@@ -105,7 +105,3 @@ class XorgView(TreeView):
             if not found:
                 self.remove_row(iter)
                 self._remove_window_iter(iter)
-
-class Interface(object):
-    def __init__(self):
-        self.widget = XorgView()
