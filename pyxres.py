@@ -77,7 +77,7 @@ _XTextProperty._fields_ = [("value", c_char_p),\
                             ("nitems", c_ulong)]
 
 class XRes(object):
-    _XRESLIB = "libXRes.so"
+    _XRESLIB = "libXRes.so.1"
     _XMULIB = "libXmu.so.6"
 
     def __init__(self):
