@@ -25,13 +25,15 @@ import dbus
 import pygtk
 import gobject
 import pango
-import gnomevfs
 
 from sugar.activity import activity
 from sugar import env
 from sugar.graphics.toolbutton import ToolButton
+
+# Interfaces
 from ps_watcher import PresenceServiceNameWatcher
 from network import NetworkView
+from xserver import XorgView
 
 class AnalyzeHandler(activity.Activity):
     def __init__(self, handle):
@@ -40,6 +42,7 @@ class AnalyzeHandler(activity.Activity):
         self.set_title(_('Analize Activity'))
 
         self._network = NetworkView()
+        self._xserver = XorgView()
         self._ps = PresenceServiceNameWatcher(dbus.SessionBus())
 
         self._box = gtk.HBox()
@@ -68,6 +71,10 @@ class AnalyzeHandler(activity.Activity):
         self._clean_box()
         self._box.pack_start(self._ps)
 
+    def switch_to_xserver(self):
+        self._clean_box()
+        self._box.pack_start(self._xserver)
+
     def switch_to_network(self):
         self._clean_box()
         self._box.pack_start(self._network)
@@ -81,12 +88,18 @@ class AnalizeToolbar(gtk.Toolbar):
     def __init__(self, handler):
         gtk.Toolbar.__init__(self)
         self._handler = handler
-        
+
         network = ToolButton('network-wireless-060')
         network.set_tooltip(_('Network Status'))
         network.connect('clicked', self._on_network_clicked_cb)
         self.insert(network, -1)
         network.show()
+
+        xserver = ToolButton('dialog-cancel')
+        xserver.set_tooltip(_('X Server'))
+        xserver.connect('clicked', self._on_xserver_clicked_cb)
+        self.insert(xserver, -1)
+        xserver.show()
 
         presence = ToolButton('computer-xo')
         presence.set_tooltip(_('Presence Service'))
@@ -96,6 +109,9 @@ class AnalizeToolbar(gtk.Toolbar):
 
     def _on_presence_clicked_cb(self, widget):
         self._handler.switch_to_presence()
+
+    def _on_xserver_clicked_cb(self, widget):
+        self._handler.switch_to_xserver()
 
     def _on_network_clicked_cb(self, widget):
         self._handler.switch_to_network()
