@@ -18,6 +18,7 @@
 import gobject
 from pyxres import XRes
 from treeview import TreeView
+from procmem.proc import ProcInfo
 
 class XorgView(TreeView):
     def __init__(self):
@@ -34,6 +35,7 @@ class XorgView(TreeView):
         cols_type = [str, str, str, str, str, str]
         TreeView.__init__(self, cols_type, col_names)
 
+        self._proc = ProcInfo()
         self._xres = XRes()
         self._display = self._xres.open_display()
         self.show_all()
@@ -59,12 +61,13 @@ class XorgView(TreeView):
             bytes = self._nice_bytes(w.pixmap_bytes)
             obytes = self._nice_bytes(w.other_bytes)
             tbytes = self._nice_bytes(w.pixmap_bytes+w.other_bytes)
-            
+            proc_name = self._proc.MemoryInfo(w.pid)['name']
+
             row.append({'index':1, 'info': hex(w.resource_base)})
             row.append({'index':2, 'info': bytes})
             row.append({'index':3, 'info': obytes})
             row.append({'index':4, 'info': tbytes})
-            row.append({'index':5, 'info': w.wm_name})
+            row.append({'index':5, 'info': proc_name})
 
             iter = self._get_window_iter(w.pid)
             if not iter:
