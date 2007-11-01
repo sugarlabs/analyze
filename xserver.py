@@ -51,7 +51,7 @@ class XorgView(TreeView):
 
     def _update_data(self):
         windows = self._xres.get_windows(self._display)
-        print windows
+
         for w in windows:
             row = []
             row.append({'index':0, 'info': w.pid})
