@@ -38,8 +38,8 @@ from xserver import XorgView
 class AnalyzeHandler(activity.Activity):
     def __init__(self, handle):
         activity.Activity.__init__(self, handle)
-        logging.debug('Starting the Analize activity')
-        self.set_title(_('Analize Activity'))
+        logging.debug('Starting the Analyze activity')
+        self.set_title(_('Analyze Activity'))
 
         self._network = NetworkView()
         self._xserver = XorgView()

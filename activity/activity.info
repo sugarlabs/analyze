@@ -1,6 +1,6 @@
 [Activity]
 name = Analyze
-activity_version = 4
+activity_version = 5
 service_name = org.laptop.Analyze
 exec = sugar-activity analyze.AnalyzeHandler -s
 icon = activity-analyze
