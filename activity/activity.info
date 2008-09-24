@@ -4,3 +4,4 @@ activity_version = 5
 service_name = org.laptop.Analyze
 exec = sugar-activity analyze.AnalyzeHandler -s
 icon = activity-analyze
+license = GPLv2+ and LGPLv2+
