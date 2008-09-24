@@ -1,6 +1,15 @@
+7
+
+* Add MANIFEST
+* Use a protected update_url.
+
 6
 
 * Clarify license
+
+5
+
+* Fix internal activity name
 
 4
 
