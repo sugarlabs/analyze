@@ -1,0 +1,17 @@
+NEWS
+README
+analyze.py
+netdevice.py
+network.py
+ps_watcher.py
+pyxres.py
+setup.py
+treeview.py
+xserver.py
+activity/activity-analyze.svg
+activity/activity.info
+procmem/__init__.py
+procmem/analysis.py
+procmem/cpu.py
+procmem/proc.py
+procmem/proc_smaps.py

@@ -1,6 +1,8 @@
 [Activity]
 name = Analyze
-activity_version = 5
+activity_version = 7
 service_name = org.laptop.Analyze
 exec = sugar-activity analyze.AnalyzeHandler -s
 icon = activity-analyze
+license = GPLv2+ and LGPLv2+
+update_url = http://wiki.laptop.org/go/Activities/G1G1

@@ -1,0 +1,31 @@
+The following files are
+ Copyright (C) 2007, Eduardo Silva <edsiper@gmail.com>
+and are licensed under the GPL v2 or later:
+ analyze.py
+ netdevice.py
+ procmem/analysis.py
+ procmem/cpu.py
+ procmem/proc.py
+ procmem/proc_smaps.py
+ pyxres.py
+
+The following files are
+ Copyright (C) 2007, Eduardo Silva <edsiper@gmail.com>
+and are licensed under the LGPL v2 or later:
+ network.py
+ treeview.py
+ xserver.py
+
+The following files are
+ Copyright (C) 2007 Collabora Ltd. <http://www.collabora.co.uk/>
+and are licensed under the GPL v2 or later:
+ ps_watcher.py
+
+The following files are
+ Copyright (C) 2006, Red Hat, Inc.
+and are licensed under the GPL v2 or later:
+ setup.py
+
+Copies of these liceneses should be present on this system in the files:
+ /usr/share/licenses/common-licenses/GPLv2
+ /usr/share/licenses/common-licenses/LGPLv2
