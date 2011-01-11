@@ -18,18 +18,19 @@
 import gobject
 from netdevice import NetDevice
 from treeview import TreeView
+from gettext import gettext as _
 
 class NetworkView(TreeView):
     def __init__(self):
         col_names = []
-        col_names.append({'index': 0, 'name': 'Interface'})
-        col_names.append({'index': 1, 'name': 'IP Address'})
-        col_names.append({'index': 2, 'name': 'NetMask'})
-        col_names.append({'index': 3, 'name': 'MAC Address'})
-        col_names.append({'index': 4, 'name': 'Bytes Recv'})
-        col_names.append({'index': 5, 'name': 'Bytes Sent'})
-        col_names.append({'index': 6, 'name': 'Packets Recv'})
-        col_names.append({'index': 7, 'name': 'Packets Sent'})
+        col_names.append({'index': 0, 'name': _('Interface')})
+        col_names.append({'index': 1, 'name': _('IP Address')})
+        col_names.append({'index': 2, 'name': _('NetMask')})
+        col_names.append({'index': 3, 'name': _('MAC Address')})
+        col_names.append({'index': 4, 'name': _('Bytes Recv')})
+        col_names.append({'index': 5, 'name': _('Bytes Sent')})
+        col_names.append({'index': 6, 'name': _('Packets Recv')})
+        col_names.append({'index': 7, 'name': _('Packets Sent')})
 
         self._iface_iter = []
         cols_type = [str, str, str, str, str, str, str, str]

@@ -19,16 +19,17 @@ import gobject
 from pyxres import XRes
 from treeview import TreeView
 from procmem.proc import ProcInfo
+from gettext import gettext as _
 
 class XorgView(TreeView):
     def __init__(self):
         col_names = []
-        col_names.append({'index': 0, 'name': 'PID'})
-        col_names.append({'index': 1, 'name': 'Resource Base'})
-        col_names.append({'index': 2, 'name': 'Pixmap Bytes'})
-        col_names.append({'index': 3, 'name': 'Other'})
-        col_names.append({'index': 4, 'name': 'Total'})
-        col_names.append({'index': 5, 'name': 'Window Name'})
+        col_names.append({'index': 0, 'name': _('PID')})
+        col_names.append({'index': 1, 'name': _('Resource Base')})
+        col_names.append({'index': 2, 'name': _('Pixmap Bytes')})
+        col_names.append({'index': 3, 'name': _('Other')})
+        col_names.append({'index': 4, 'name': _('Total')})
+        col_names.append({'index': 5, 'name': _('Window Name')})
 
         self._window_iter = []
 
