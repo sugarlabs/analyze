@@ -2,56 +2,56 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-05-15 12:53+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.1\n"
 
 #: activity/activity.info:2
 msgid "Analyze"
-msgstr ""
+msgstr "Վերլուծել"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:26
 msgid "Interface"
-msgstr ""
+msgstr "Ինտերֆեյս"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:27
 msgid "IP Address"
-msgstr ""
+msgstr "IP հասցե"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:28
 msgid "NetMask"
-msgstr ""
+msgstr "Ցանցադիմակ"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:29
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC հասցե"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:30
 msgid "Bytes Recv"
-msgstr ""
+msgstr "Ստացված բայթերը"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:31
 msgid "Bytes Sent"
-msgstr ""
+msgstr "Ուղարկված բայթերը"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:32
 msgid "Packets Recv"
-msgstr ""
+msgstr "Ստացված փաթեթները"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:33
 msgid "Packets Sent"
-msgstr ""
+msgstr "Ուղարկված փաթեթները"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
@@ -71,7 +71,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 msgid "INFO"
-msgstr ""
+msgstr "ԻՆՖՈ"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #, python-format
@@ -79,11 +79,13 @@ msgid ""
 "Activity %(path)s emitted BuddyJoined(\"%(buddy)s\") or mentioned the buddy "
 "in GetJoinedBuddies"
 msgstr ""
+"Գործունեության %(path)s /ները BuddyJoined (\"%(buddy)s\") են ճառագայթել, կամ "
+"նշել են buddy-ն GetJoinedBuddies-ում"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
 #, python-format
 msgid "Activity %(path)s emitted BuddyLeft(\"%(buddy)s\")"
-msgstr ""
+msgstr "Գործունեության %(path)s BuddyLeft (\"%(buddy)s\") են ճառագայթել"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
@@ -99,12 +101,12 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:718
 msgid "ERROR"
-msgstr ""
+msgstr "ՎՐԻՊՈՒՄ"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #, python-format
 msgid "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
-msgstr ""
+msgstr "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:146
 #, python-format
@@ -116,27 +118,27 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
 #, python-format
 msgid "<Activity %(path)s>.GetChannels(): %(e)s"
-msgstr ""
+msgstr "<Activity %(path)s>.GetChannels(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:180
 #, python-format
 msgid "<Activity %(path)s>.GetId(): %(e)s"
-msgstr ""
+msgstr "<Activity %(path)s>.GetId(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:191
 #, python-format
 msgid "<Activity %(path)s>.GetColor(): %(e)s"
-msgstr ""
+msgstr "<Activity %(path)s>.GetColor(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:202
 #, python-format
 msgid "<Activity %(path)s>.GetType(): %(e)s"
-msgstr ""
+msgstr "<Activity %(path)s>.GetType(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:213
 #, python-format
 msgid "<Activity %(path)s>.GetName(): %(e)s"
-msgstr ""
+msgstr "<Activity %(path)s>.GetName(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:261
 #, python-format
@@ -224,19 +226,19 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:494
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:550
 msgid "Color"
-msgstr ""
+msgstr "Գույն"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:499
 msgid "Type"
-msgstr ""
+msgstr "Ձև"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:504
 msgid "Name"
-msgstr ""
+msgstr "Անուն"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:509
 msgid "Connection"
-msgstr ""
+msgstr "Միացում"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:514
 msgid "Channels"
