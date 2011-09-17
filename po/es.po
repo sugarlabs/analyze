@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-06-27 19:07+0200\n"
-"Last-Translator: Rafael Ortiz <rafael@laptop.org>\n"
+"PO-Revision-Date: 2011-09-17 08:23+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -76,18 +76,18 @@ msgstr "Información"
 # Buddy Joined se refiere a que se unió a la actividad?
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #, python-format
-#, python-format, fuzzy
+#, python-format,
 msgid ""
 "Activity %(path)s emitted BuddyJoined(\"%(buddy)s\") or mentioned the buddy "
 "in GetJoinedBuddies"
 msgstr ""
-"La actividad %(path)s ha emitido BuddyJoined(\"%(buddy)s\") o mencionado al "
+"La actividad %(path)s ha emitido BuddyJoined(\"%(buddy)s\") o ha mencionado al "
 "amigo en GetJoinedBuddies"
 
 # BuddyLeft se refiere a que abandono el "compartir"? //sip
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
 #, python-format
-#, python-format, fuzzy
+#, python-format,
 msgid "Activity %(path)s emitted BuddyLeft(\"%(buddy)s\")"
 msgstr "La actividad %(path)s ha emitido BuddyLeft(\"%(buddy)s\")"
 
@@ -110,7 +110,7 @@ msgstr "ERROR EN"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #, python-format
 msgid "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
-msgstr "<Actividad %(path)s> GetJoinedBuddies(): %(e)s"
+msgstr "<Actividad %(path)s>.GetJoinedBuddies(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:146
 #, python-format
@@ -120,7 +120,7 @@ msgid ""
 "channel in GetChannels()"
 msgstr ""
 "Actividad %(path)s emitió NewChannel(\"%(channel)s\") ó mencionó el canal en "
-"GetChannels()"
+"GetChannels() կապուղին GetChannels()-ում"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
 #, python-format
@@ -179,7 +179,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:317
 #, python-format
 msgid "<Buddy %(path)s>.GetTelepathyHandles(): %(e)s"
-msgstr "<El amigo %(path)s>.GetTelepathyHandles(): %(e)s"
+msgstr "<Buddy %(path)s>.GetTelepathyHandles(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:327
 #, python-format
