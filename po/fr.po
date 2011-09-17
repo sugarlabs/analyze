@@ -7,10 +7,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-03-08 20:22+0200\n"
-"Last-Translator: Rafael Ortiz <rafael@laptop.org>\n"
+"PO-Revision-Date: 2011-09-18 00:38+0200\n"
+"Last-Translator: samy boutayeb <s.boutayeb@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,31 +27,31 @@ msgstr "Interface"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:27
 msgid "IP Address"
-msgstr ""
+msgstr "Adresse IP"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:28
 msgid "NetMask"
-msgstr ""
+msgstr "Masque de sous-réseau"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:29
 msgid "MAC Address"
-msgstr ""
+msgstr "Adresse MAC"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:30
 msgid "Bytes Recv"
-msgstr ""
+msgstr "Octets reçus"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:31
 msgid "Bytes Sent"
-msgstr ""
+msgstr "Octets envoyés"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:32
 msgid "Packets Recv"
-msgstr ""
+msgstr "Paquets reçus"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:33
 msgid "Packets Sent"
-msgstr ""
+msgstr "Paquets envoyés"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
@@ -71,7 +71,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 msgid "INFO"
-msgstr ""
+msgstr "INFO"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #, python-format
@@ -79,11 +79,13 @@ msgid ""
 "Activity %(path)s emitted BuddyJoined(\"%(buddy)s\") or mentioned the buddy "
 "in GetJoinedBuddies"
 msgstr ""
+"L'activité %(path)s a émis BuddyJoined(\"%(buddy)s\") ou a mentionné l'ami "
+"dans GetJoinedBuddies"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
 #, python-format
 msgid "Activity %(path)s emitted BuddyLeft(\"%(buddy)s\")"
-msgstr ""
+msgstr "L'activité %(path)s a émis BuddyLeft(\"%(buddy)s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
@@ -99,12 +101,12 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:718
 msgid "ERROR"
-msgstr ""
+msgstr "ERREUR"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #, python-format
 msgid "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
-msgstr ""
+msgstr "<Activité %(path)s>.GetJoinedBuddies(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:146
 #, python-format
@@ -112,51 +114,53 @@ msgid ""
 "Activity %(path)s emitted NewChannel(\"%(channel)s\") or mentioned the "
 "channel in GetChannels()"
 msgstr ""
+"L'activité %(path)s a émis NewChannel(\"%(channel)s\") ou a mentionné le canal "
+"dans GetChannels()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
 #, python-format
 msgid "<Activity %(path)s>.GetChannels(): %(e)s"
-msgstr ""
+msgstr "<Activité %(path)s>.GetChannels(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:180
 #, python-format
 msgid "<Activity %(path)s>.GetId(): %(e)s"
-msgstr ""
+msgstr "<Activité %(path)s>.GetId(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:191
 #, python-format
 msgid "<Activity %(path)s>.GetColor(): %(e)s"
-msgstr ""
+msgstr "<Activité %(path)s>.GetColor(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:202
 #, python-format
 msgid "<Activity %(path)s>.GetType(): %(e)s"
-msgstr ""
+msgstr "<Activité %(path)s>.GetType(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:213
 #, python-format
 msgid "<Activity %(path)s>.GetName(): %(e)s"
-msgstr ""
+msgstr "<Activité %(path)s>.GetName(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:261
 #, python-format
 msgid "Calling <Buddy %s>.GetProperties()"
-msgstr ""
+msgstr "Appel de <Ami %s>.GetProperties()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:268
 #, python-format
 msgid "Calling <Buddy %s>.GetJoinedActivities()"
-msgstr ""
+msgstr "Appel de <Ami %s>.GetJoinedActivities()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:277
 #, python-format
 msgid "Calling <Buddy %s>.GetTelepathyHandles()"
-msgstr ""
+msgstr "Appel de <Ami %s>.GetTelepathyHandles()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:286
 #, python-format
 msgid "Buddy %s emitted Telepathy HandleAdded("
-msgstr ""
+msgstr "L'ami %s a émis Telepathy HandleAdded("
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:302
 #, python-format
@@ -164,11 +168,12 @@ msgid ""
 "Buddy %(path)s emitted HandleRemoved(\"%(service)s\", \"%(conn)s\", "
 "%(handle)u)"
 msgstr ""
+"L'ami %(path)s a émis HandleRemoved(\"%(service)s\", \"%(conn)s\", %(handle)u)"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:317
 #, python-format
 msgid "<Buddy %(path)s>.GetTelepathyHandles(): %(e)s"
-msgstr ""
+msgstr "<Ami %(path)s>.GetTelepathyHandles(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:327
 #, python-format
@@ -176,231 +181,232 @@ msgid ""
 "Buddy %(path)s emitted ActivityJoined(\"%(act)s\") or mentioned it in "
 "GetJoinedActivities()"
 msgstr ""
+"L'ami %(path)s a émis ActivityJoined(\"%(act)s\") ou l'a mentionné dans "
+"GetJoinedActivities()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:339
 #, python-format
 msgid "Buddy %(path)s emitted ActivityLeft(\"%(act)s\")"
-msgstr ""
+msgstr "L'ami %(path)s a émis ActivityLeft(\"%(act)s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:354
 #, python-format
 msgid "<Buddy %(path)s>.GetJoinedActivities(): %(e)s"
-msgstr ""
+msgstr "<Ami %(path)s>.GetJoinedActivities(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:362
 #, python-format
 msgid "<Buddy %(path)s> emitted PropertyChanged(%(props)r)"
-msgstr ""
+msgstr "<L'ami %(path)s> a émis PropertyChanged(%(props)r)"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:366
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:375
 #, python-format
 msgid "INTERNAL ERROR: %s"
-msgstr ""
+msgstr "ERREUR INTERNE : %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:371
 #, python-format
 msgid "<Buddy %(path)s>.GetProperties() -> %(props)r"
-msgstr ""
+msgstr "<Ami %(path)s>.GetProperties() -> %(props)r"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:412
 #, python-format
 msgid "<Buddy %(path)s>.GetProperties(): %(e)s"
-msgstr ""
+msgstr "<Ami %(path)s>.GetProperties(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:481
 msgid "Activities:"
-msgstr ""
+msgstr "Activités :"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:485
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:533
 msgid "Object path"
-msgstr ""
+msgstr "Chemin de l'objet"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:489
 msgid "ID"
-msgstr ""
+msgstr "Identifiant"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:494
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:550
 msgid "Color"
-msgstr ""
+msgstr "Couleur"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:499
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:504
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:509
 msgid "Connection"
-msgstr ""
+msgstr "Connexion"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:514
 msgid "Channels"
-msgstr ""
+msgstr "Canaux"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:518
 msgid "Buddies"
-msgstr ""
+msgstr "Amis"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:531
 msgid "Buddies:"
-msgstr ""
+msgstr "Amis :"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:538
 msgid "Pubkey"
-msgstr ""
+msgstr "Clé publique"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:543
 msgid "Nick"
-msgstr ""
+msgstr "Pseudo"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:548
 msgid "Owner"
-msgstr ""
+msgstr "Propriétaire"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:555
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:560
 msgid "CurAct"
-msgstr ""
+msgstr "ActCour"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:565
 msgid "Activities"
-msgstr ""
+msgstr "Activités"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:570
 msgid "Handles"
-msgstr ""
+msgstr "Descripteurs"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:586
 #, python-format
 msgid "PS GetActivities() returned %r"
-msgstr ""
+msgstr "PS GetActivities() a retourné %r"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:592
 #, python-format
 msgid "PS GetActivities() failed with %s"
-msgstr ""
+msgstr "PS GetActivities() a échoué avec %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:608
 #, python-format
 msgid "PS emitted ActivityAppeared(\"%s\")"
-msgstr ""
+msgstr "PS a émis ActivityAppeared(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:614
 #, python-format
 msgid "PS emitted ActivityDisappeared(\"%s\")"
-msgstr ""
+msgstr "PS a émis ActivityDisappeared(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 msgid "WARNING"
-msgstr ""
+msgstr "AVERTISSEMENT"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
 msgid "Trying to remove activity \"%s\" which is already absent"
-msgstr ""
+msgstr "Impossible de supprimer l'activité \"%s\" qui est absente"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:623
 #, python-format
 msgid "PS emitted ActivityInvitation(\"%s\")"
-msgstr ""
+msgstr "PS a émis ActivityInvitation(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:626
 #, python-format
 msgid ""
 "PS emitted PrivateInvitation(\"%(bus)s\", \"%(conn)s\", \"%(channel)s\")"
-msgstr ""
+msgstr "PS a émis PrivateInvitation(\"%(bus)s\", \"%(conn)s\", \"%(channel)s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:630
 #, python-format
 msgid "PS GetBuddies() returned %r"
-msgstr ""
+msgstr "PS GetBuddies() a retourné %r"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:636
 #, python-format
 msgid "PS GetBuddies() failed with %s"
-msgstr ""
+msgstr "PS GetBuddies() a échoué avec %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #, python-format
 msgid "PS emitted BuddyAppeared(\"%s\")"
-msgstr ""
+msgstr "PS a émis BuddyAppeared(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 #, python-format
 msgid "PS emitted BuddyDisappeared(\"%s\")"
-msgstr ""
+msgstr "PS a émis BuddyDisappeared(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #, python-format
 msgid "Trying to remove buddy \"%s\" which is already absent"
-msgstr ""
+msgstr "Tentative de supprimer l'ami \"%s\" qui est absent"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:676
 msgid "Looking for Presence Service..."
-msgstr ""
+msgstr "Examen du service Présence (PS)..."
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:680
 msgid "Log"
-msgstr ""
+msgstr "Journal"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:703
 #, python-format
 msgid "Presence Service running: unique name %s"
-msgstr ""
+msgstr "Exécution du service Présence (PS) : nom unique %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:712
 msgid "Presence Service not running"
-msgstr ""
+msgstr "Service Présence (PS) pas exécuté"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:27
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:28
 msgid "Resource Base"
-msgstr ""
+msgstr "Base ressource"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:29
 msgid "Pixmap Bytes"
-msgstr ""
+msgstr "Pixmap Octets"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:30
 msgid "Other"
-msgstr ""
+msgstr "Autres"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:31
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:32
 msgid "Window Name"
-msgstr ""
+msgstr "Nom de la fenêtre"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:40
 msgid "Analyze Activity"
-msgstr ""
+msgstr "Analyser l'activité"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:57
-#, fuzzy
 msgid "Interfaces"
-msgstr "Interface"
+msgstr "Interfaces"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:91
 msgid "Network Status"
-msgstr ""
+msgstr "Statut du réseau"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:97
 msgid "X Server"
-msgstr ""
+msgstr "Serveur X"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:103
 msgid "Presence Service"
-msgstr ""
+msgstr "Service Présence"
