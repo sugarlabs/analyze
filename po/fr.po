@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-09-18 00:38+0200\n"
+"PO-Revision-Date: 2011-09-18 02:09+0200\n"
 "Last-Translator: samy boutayeb <s.boutayeb@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -145,17 +145,17 @@ msgstr "<Activité %(path)s>.GetName(): %(e)s"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:261
 #, python-format
 msgid "Calling <Buddy %s>.GetProperties()"
-msgstr "Appel de <Ami %s>.GetProperties()"
+msgstr "Appel de <Buddy %s>.GetProperties()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:268
 #, python-format
 msgid "Calling <Buddy %s>.GetJoinedActivities()"
-msgstr "Appel de <Ami %s>.GetJoinedActivities()"
+msgstr "Appel de <Buddy %s>.GetJoinedActivities()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:277
 #, python-format
 msgid "Calling <Buddy %s>.GetTelepathyHandles()"
-msgstr "Appel de <Ami %s>.GetTelepathyHandles()"
+msgstr "Appel de <Buddy %s>.GetTelepathyHandles()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:286
 #, python-format
