@@ -7,10 +7,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-08-10 05:18+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2011-09-18 09:28+0200\n"
+"Last-Translator: Aputsiaq Niels <aj@isit.gl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -106,7 +106,7 @@ msgstr "FEJL"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #, python-format
 msgid "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
-msgstr "<Aktivitet %(path)s>.GetJoinedBuddies(): %(e)s"
+msgstr "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:146
 #, python-format
@@ -120,27 +120,27 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
 #, python-format
 msgid "<Activity %(path)s>.GetChannels(): %(e)s"
-msgstr "<Aktivitet %(path)s>.GetChannels(): %(e)s"
+msgstr "<Activity %(path)s>.GetChannels(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:180
 #, python-format
 msgid "<Activity %(path)s>.GetId(): %(e)s"
-msgstr "<Aktivitet %(path)s>.GetId(): %(e)s"
+msgstr "<Activity %(path)s>.GetId(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:191
 #, python-format
 msgid "<Activity %(path)s>.GetColor(): %(e)s"
-msgstr "<Aktivitet %(path)s>.GetColor(): %(e)s"
+msgstr "<Activity %(path)s>.GetColor(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:202
 #, python-format
 msgid "<Activity %(path)s>.GetType(): %(e)s"
-msgstr "<Aktivitet %(path)s>.GetType(): %(e)s"
+msgstr "<Activity %(path)s>.GetType(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:213
 #, python-format
 msgid "<Activity %(path)s>.GetName(): %(e)s"
-msgstr "<Aktivitet %(path)s>.GetName(): %(e)s"
+msgstr "<Activity %(path)s>.GetName(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:261
 #, python-format
