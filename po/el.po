@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-02-20 12:15+0200\n"
-"Last-Translator: John Sarlis <sarlis@sch.gr>\n"
+"PO-Revision-Date: 2011-07-22 06:07+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -198,7 +198,7 @@ msgstr "<Φίλος %(path)s>.ΔείξεΣυνδεμένεςΔραστηριότ
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:362
 #, python-format
 msgid "<Buddy %(path)s> emitted PropertyChanged(%(props)r)"
-msgstr "<Φίλος %(path)s> εκπέμπει ΑλλαγήΙδιότητας(%(prop)r)"
+msgstr "<Φίλος %(path)s> εκπέμπει ΑλλαγήΙδιότητας(%(props)r)"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:366
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:375
