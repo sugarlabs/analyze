@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-11-20 01:59+0200\n"
+"PO-Revision-Date: 2011-11-21 05:40+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: Voluntarios quechuas Sugar Camp Lima\n"
 "Language: quz\n"
@@ -210,7 +210,7 @@ msgid ""
 "Buddy %(path)s emitted ActivityJoined(\"%(act)s\") or mentioned it in "
 "GetJoinedActivities()"
 msgstr ""
-"Masiqa %(path)s rikurichin ActivityJoined(\\\"%(act)s\\\") mana chayqa "
+"Masiqa %(path)s rikurichin ActivityJoined(\"%(act)s\") mana chayqa "
 "GetJoinedActivities() nisqapin paymanta rimarinku"
 
 #  "El amigo %(path)s emitió ActivityLeft(\"%(act)s\")"
@@ -370,7 +370,7 @@ msgstr "PAQTATAQ"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
 msgid "Trying to remove activity \"%s\" which is already absent"
-msgstr "Ruwana \\\"%s\\\" kaqtam yaqa pichachkanki"
+msgstr "Ruwana \"%s\" kaqtam yaqa pichachkanki"
 
 #  "PS emitió ActivityInvitation(\"%s\")"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:623
@@ -418,7 +418,7 @@ msgstr "Ruwana \"%s\" kaqtam yaqa pichachkanki"
 #  "Buscando el servicio \"Presence Service\"..."
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:676
 msgid "Looking for Presence Service..."
-msgstr "Kay haywariyta machkaspa \\\"Presence Service\\\"..."
+msgstr "Kay haywariyta machkaspa \"Presence Service\"..."
 
 #  "Registro"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:680
@@ -429,12 +429,12 @@ msgstr "Qillqachana"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:703
 #, python-format
 msgid "Presence Service running: unique name %s"
-msgstr "Kay haywarina \\\"Presence Service\\\" ruwakuchkanña: sapan suti %s"
+msgstr "Kay haywarina \"Presence Service\" ruwakuchkanña: sapan suti %s"
 
 #  "El servicio \"Presence Service\" no se está ejecutando"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:712
 msgid "Presence Service not running"
-msgstr "Kay haywarina \\\"Presence Service\\\" mana llamk'achkanchu"
+msgstr "Kay haywarina \"Presence Service\" mana llamk'achkanchu"
 
 #  "Identificador del Proceso"
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:27
@@ -489,4 +489,4 @@ msgstr "Servidor X"
 #  "Servicio \"Presence Service\""
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:103
 msgid "Presence Service"
-msgstr "Haywarina \\\"Presence Service\\"
+msgstr "Haywarina \"Presence Service\""
