@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-11-03 17:23+0200\n"
-"Last-Translator: anush.mkrtchyan <anush.mkrtchyan@ca1492.com>\n"
+"PO-Revision-Date: 2011-12-08 01:59+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -79,13 +79,13 @@ msgid ""
 "Activity %(path)s emitted BuddyJoined(\"%(buddy)s\") or mentioned the buddy "
 "in GetJoinedBuddies"
 msgstr ""
-"Գործունեության %(path)s /ները BuddyJoined (\"%(buddy)s\") են ճառագայթել, կամ "
-"նշել են buddy-ն GetJoinedBuddies-ում"
+"Գործունեությունը %(path)s թողարկեց` «Ընկերը Միացավ» (\"%(buddy)s\") կամ "
+"հիշեցրեց, որ ընկերը «Հասավ Միացված Ընկերներ»-ին"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
 #, python-format
 msgid "Activity %(path)s emitted BuddyLeft(\"%(buddy)s\")"
-msgstr "Գործունեության %(path)s BuddyLeft (\"%(buddy)s\") են ճառագայթել"
+msgstr "Գործունեությունը %(path)s թողարկեց` «Ընկերը հեռացավ» (\"%(buddy)s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
@@ -107,7 +107,7 @@ msgstr "ՍԽԱԼ"
 #, python-format
 #, python-format,
 msgid "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
-msgstr "%(path)s գործողությունը. Միացիր JoinedBuddies(): %(e)s"
+msgstr "<Activity %(path)s>. Հասավ Միացված Ընկերներ»-ին(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:146
 #, python-format
@@ -115,7 +115,7 @@ msgid ""
 "Activity %(path)s emitted NewChannel(\"%(channel)s\") or mentioned the "
 "channel in GetChannels()"
 msgstr ""
-"%(path)s գործողությունը բաց է թողնում NewChannel(\"%(channel)s\") կամ նշում է "
+"%(path)s գործողուունեությունը թողարկեց NewChannel(\"%(channel)s\") կամ նշում է "
 "GetChannels() -ում"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
@@ -263,7 +263,7 @@ msgstr "Ընկերներ"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:531
 msgid "Buddies:"
-msgstr "Ընկերներ`"
+msgstr "Ընկերներ."
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:538
 msgid "Pubkey"
@@ -342,7 +342,6 @@ msgstr "PS ձեռք է բերում ընկերներ() վերադարձ %r"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:636
 #, python-format
-#, python-format, 
 #, python-format,
 msgid "PS GetBuddies() failed with %s"
 msgstr "PS ձեռք է բերում ընկերներ() գործողությունը ձախողված է %s"
@@ -364,7 +363,7 @@ msgstr "Փորձել տեղաշարժել գործողությունը\"%s\", ո
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:676
 msgid "Looking for Presence Service..."
-msgstr "Փնտրում է \"Presence Service\" ծառայությունը"
+msgstr "Փնտրում է \"Presence Service\" ծառայությունը..."
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:680
 msgid "Log"
