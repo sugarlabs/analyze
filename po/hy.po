@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-12-19 15:36+0200\n"
-"Last-Translator: Jasmine <udea_jasmine@yahoo.com>\n"
+"PO-Revision-Date: 2011-12-21 19:31+0200\n"
+"Last-Translator: anush.mkrtchyan <anush.mkrtchyan@ca1492.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -77,14 +77,13 @@ msgstr "Տեղեկություն"
 
 # do not translate %(path)s or %(buddy)s
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
-#, python-format, fuzzy
+#, python-format, , 
 msgid ""
 "Activity %(path)s emitted BuddyJoined(\"%(buddy)s\") or mentioned the buddy "
 "in GetJoinedBuddies"
 msgstr ""
-"Գործունեությունը %(շավիղ)ներ հաղորդեց`«Ընկերը Միացավ»(\"%(ընկերները)\")կամ "
-"նշեց,որ ընկերը հայտնվեց GetJoinedBuddies /«Հասնել Միացված Ընկերներին»/ "
-"խմբում:"
+"Գործունեությունը %%(path)s հաղորդեց`«Ընկերը Միացավ»(\"%(buddy)s\")կամ նշեց,որ "
+"ընկերը հայտնվեց GetJoinedBuddies /«Հասնել Միացված Ընկերներին»/ խմբում:"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
 #, python-format
@@ -114,13 +113,13 @@ msgid "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
 msgstr "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:146
-#, python-format
+#, python-format, 
 msgid ""
 "Activity %(path)s emitted NewChannel(\"%(channel)s\") or mentioned the "
 "channel in GetChannels()"
 msgstr ""
-"%(path)s գործունեությունը զեկուցեց NewChannel(\"Նոր կապուղի/կապուղիներ\")կամ "
-"նշում է GetChannels()-ում"
+"%(path)s գործունեությունը զեկուցեց NewChannel(\"%(channel)s\") կամ նշում է "
+"GetChannels()-ում"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
 #, python-format
@@ -279,7 +278,7 @@ msgstr "Մականուն"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:548
 msgid "Owner"
-msgstr "Սեփականատեր"
+msgstr "Տեր"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:555
 msgid "IPv4"
@@ -287,7 +286,7 @@ msgstr "IPv4"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:560
 msgid "CurAct"
-msgstr "Ընթացիկ գործողություն"
+msgstr "Ընթացիկ գործունեություն"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:565
 msgid "Activities"
@@ -324,7 +323,7 @@ msgstr "ՆԱԽԱԶԳՈՒՇԱՑՈՒՄ"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
 msgid "Trying to remove activity \"%s\" which is already absent"
-msgstr "Փորձել տեղաշարժել գործողությունը\"%s\", որը արդեն բացակայում է"
+msgstr "Փորձել տեղաշարժել գործունեությունը\"%s\", որն արդեն բացակայում է"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:623
 #, python-format
@@ -363,7 +362,7 @@ msgstr "PS բաց է թողնում BuddyDisappeared(\"%s\")"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #, python-format
 msgid "Trying to remove buddy \"%s\" which is already absent"
-msgstr "Փորձել տեղաշարժել գործողությունը\"%s\", որը արդեն բացակայում է"
+msgstr "Փորձել տեղաշարժել գործողությունը\"%s\",որն արդեն բացակայում է"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:676
 msgid "Looking for Presence Service..."
@@ -376,11 +375,11 @@ msgstr "Գրանցում"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:703
 #, python-format
 msgid "Presence Service running: unique name %s"
-msgstr "\"Presence Service\" ծառայությունը ընթացքի մեջ է. միակ անունը %s"
+msgstr "\"Presence Service\" ծառայությունն ընթացքի մեջ է. միակ անունը %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:712
 msgid "Presence Service not running"
-msgstr "\"Presence Service\" ծառայությունը ընթացքի մեջ չէ"
+msgstr "\"Presence Service\" ծառայությունն ընթացքի մեջ չէ"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:27
 msgid "PID"
@@ -388,11 +387,11 @@ msgstr "Ընթացքի իդենտիֆիկացում"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:28
 msgid "Resource Base"
-msgstr "Հիմնական աղբյուր"
+msgstr "Միջոցների հիմնական աղբյուր"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:29
 msgid "Pixmap Bytes"
-msgstr "Պիքսելների քարտեզ Բայթով"
+msgstr "Պիքսելների քարտեզ Բայթերով"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:30
 msgid "Other"
@@ -408,11 +407,11 @@ msgstr "Պատուհանի անունը"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:40
 msgid "Analyze Activity"
-msgstr "Վերլուծել գործողությունը"
+msgstr "Վերլուծել գործունեությունը"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:57
 msgid "Interfaces"
-msgstr "ինտերֆեյս"
+msgstr "Միջերեսներ"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:91
 msgid "Network Status"
