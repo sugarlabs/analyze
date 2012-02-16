@@ -10,7 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2011-12-22 01:51+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: hy\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -77,7 +77,8 @@ msgstr "Տեղեկություն"
 
 # do not translate %(path)s or %(buddy)s
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
-#, python-format, , 
+#, python-format
+#, python-format, ,
 msgid ""
 "Activity %(path)s emitted BuddyJoined(\"%(buddy)s\") or mentioned the buddy "
 "in GetJoinedBuddies"
@@ -113,7 +114,8 @@ msgid "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
 msgstr "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:146
-#, python-format, 
+#, python-format
+#, python-format,
 msgid ""
 "Activity %(path)s emitted NewChannel(\"%(channel)s\") or mentioned the "
 "channel in GetChannels()"
