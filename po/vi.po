@@ -2,56 +2,56 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-11-24 13:48+0200\n"
+"Last-Translator: starbucks <lanbk@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
 msgid "Analyze"
-msgstr ""
+msgstr "Phân tích"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:26
 msgid "Interface"
-msgstr ""
+msgstr "Giao diện"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:27
 msgid "IP Address"
-msgstr ""
+msgstr "địa chỉ IP"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:28
 msgid "NetMask"
-msgstr ""
+msgstr "Mặt nạ mạng"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:29
 msgid "MAC Address"
-msgstr ""
+msgstr "địa chỉ MAC"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:30
 msgid "Bytes Recv"
-msgstr ""
+msgstr "Bytes nhận được"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:31
 msgid "Bytes Sent"
-msgstr ""
+msgstr "Bytes đã gửi"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:32
 msgid "Packets Recv"
-msgstr ""
+msgstr "Packets nhận được"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:33
 msgid "Packets Sent"
-msgstr ""
+msgstr "Packets đã gửi"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
@@ -71,7 +71,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 msgid "INFO"
-msgstr ""
+msgstr "Thông tin"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #, python-format
@@ -99,7 +99,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:718
 msgid "ERROR"
-msgstr ""
+msgstr "Lỗi"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #, python-format
@@ -210,37 +210,37 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:481
 msgid "Activities:"
-msgstr ""
+msgstr "Các hoạt động"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:485
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:533
 msgid "Object path"
-msgstr ""
+msgstr "đường dẫn tới đối tượng"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:489
 msgid "ID"
-msgstr ""
+msgstr "định danh"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:494
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:550
 msgid "Color"
-msgstr ""
+msgstr "màu"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:499
 msgid "Type"
-msgstr ""
+msgstr "Dạng"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:504
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:509
 msgid "Connection"
-msgstr ""
+msgstr "kết nối"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:514
 msgid "Channels"
-msgstr ""
+msgstr "các kênh"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:518
 msgid "Buddies"
@@ -264,15 +264,16 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:555
 msgid "IPv4"
-msgstr ""
+msgstr "giao thức IP phiên bản 4"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:560
 msgid "CurAct"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:565
+#, fuzzy
 msgid "Activities"
-msgstr ""
+msgstr "Các hoạt động"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:570
 msgid "Handles"
@@ -300,12 +301,12 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 msgid "WARNING"
-msgstr ""
+msgstr "Cảnh báo"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
 msgid "Trying to remove activity \"%s\" which is already absent"
-msgstr ""
+msgstr "Đang cố loại bỏ hoạt động không tồn tại \"%s\""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:623
 #, python-format
@@ -340,8 +341,9 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #, python-format
+#, python-format, fuzzy
 msgid "Trying to remove buddy \"%s\" which is already absent"
-msgstr ""
+msgstr "Đang cố loại bỏ hoạt động không tồn tại \"%s\""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:676
 msgid "Looking for Presence Service..."
@@ -349,7 +351,7 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:680
 msgid "Log"
-msgstr ""
+msgstr "Bản ghi"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:703
 #, python-format
@@ -374,11 +376,11 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:30
 msgid "Other"
-msgstr ""
+msgstr "Khác"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:31
 msgid "Total"
-msgstr ""
+msgstr "tổng"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:32
 msgid "Window Name"
@@ -386,15 +388,16 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:40
 msgid "Analyze Activity"
-msgstr ""
+msgstr "hoạt động phân tích"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:57
+#, fuzzy
 msgid "Interfaces"
-msgstr ""
+msgstr "Giao diện"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:91
 msgid "Network Status"
-msgstr ""
+msgstr "Trạng thái mạng"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:97
 msgid "X Server"

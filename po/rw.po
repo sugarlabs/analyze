@@ -2,56 +2,56 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-04-04 22:31+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
 msgid "Analyze"
-msgstr ""
+msgstr "Genzura"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:26
 msgid "Interface"
-msgstr ""
+msgstr "Interface"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:27
 msgid "IP Address"
-msgstr ""
+msgstr "IP Address"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:28
 msgid "NetMask"
-msgstr ""
+msgstr "NetMask"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:29
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC Address"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:30
 msgid "Bytes Recv"
-msgstr ""
+msgstr "Bytes zakiriwe"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:31
 msgid "Bytes Sent"
-msgstr ""
+msgstr "Bytes Zoherejwe"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:32
 msgid "Packets Recv"
-msgstr ""
+msgstr "Packets Zakiriwe"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:33
 msgid "Packets Sent"
-msgstr ""
+msgstr "Packets Zoherejwe"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
@@ -71,7 +71,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 msgid "INFO"
-msgstr ""
+msgstr "Amakuru"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #, python-format
@@ -99,12 +99,13 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:718
 msgid "ERROR"
-msgstr ""
+msgstr "Ikosa"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #, python-format
+#, python-format, fuzzy
 msgid "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
-msgstr ""
+msgstr "<Igikorwa %(path)s>.Bonaumurongo(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:146
 #, python-format
@@ -116,37 +117,37 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
 #, python-format
 msgid "<Activity %(path)s>.GetChannels(): %(e)s"
-msgstr ""
+msgstr "<Igikorwa %(path)s>.Bonaumurongo(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:180
 #, python-format
 msgid "<Activity %(path)s>.GetId(): %(e)s"
-msgstr ""
+msgstr "<Igikorwa %(path)s>.BonaIkiranga(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:191
 #, python-format
 msgid "<Activity %(path)s>.GetColor(): %(e)s"
-msgstr ""
+msgstr "<Igikorwa %(path)s>.BonaIbara(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:202
 #, python-format
 msgid "<Activity %(path)s>.GetType(): %(e)s"
-msgstr ""
+msgstr "<Igikorwa %(path)s>.BonaUbwoko(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:213
 #, python-format
 msgid "<Activity %(path)s>.GetName(): %(e)s"
-msgstr ""
+msgstr "<Igikorwa %(path)s>.BonaIzina(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:261
 #, python-format
 msgid "Calling <Buddy %s>.GetProperties()"
-msgstr ""
+msgstr "Guhamagara <Buddy %s>.BonaIbiranga()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:268
 #, python-format
 msgid "Calling <Buddy %s>.GetJoinedActivities()"
-msgstr ""
+msgstr "Guhamagara <Buddy %s>.BonaIbikorwaBihujwe()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:277
 #, python-format
@@ -195,8 +196,9 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:366
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:375
 #, python-format
+#, python-format, fuzzy
 msgid "INTERNAL ERROR: %s"
-msgstr ""
+msgstr "Ikosa ririmo imbere:%s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:371
 #, python-format
@@ -210,69 +212,72 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:481
 msgid "Activities:"
-msgstr ""
+msgstr "Ibikorwa:"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:485
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:533
 msgid "Object path"
-msgstr ""
+msgstr "Inzira y'ikintu"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:489
 msgid "ID"
-msgstr ""
+msgstr "Ikiranga"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:494
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:550
 msgid "Color"
-msgstr ""
+msgstr "Ibara"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:499
 msgid "Type"
-msgstr ""
+msgstr "Ubwoko"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:504
 msgid "Name"
-msgstr ""
+msgstr "Izina"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:509
 msgid "Connection"
-msgstr ""
+msgstr "Umuyoboro"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:514
 msgid "Channels"
-msgstr ""
+msgstr "Imirongo"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:518
+#, fuzzy
 msgid "Buddies"
-msgstr ""
+msgstr "Inshuti za bugufi"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:531
+#, fuzzy
 msgid "Buddies:"
-msgstr ""
+msgstr "Inshuti za bugufi:"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:538
 msgid "Pubkey"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:543
+#, fuzzy
 msgid "Nick"
-msgstr ""
+msgstr "Guhuza"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:548
 msgid "Owner"
-msgstr ""
+msgstr "Nyirubwite"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:555
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:560
 msgid "CurAct"
-msgstr ""
+msgstr "CurAct"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:565
 msgid "Activities"
-msgstr ""
+msgstr "Ibikorwa"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:570
 msgid "Handles"
@@ -280,13 +285,15 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:586
 #, python-format
+#, python-format, fuzzy
 msgid "PS GetActivities() returned %r"
-msgstr ""
+msgstr "PS fata igikorwa () ukigarure %r "
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:592
 #, python-format
+#, python-format, fuzzy
 msgid "PS GetActivities() failed with %s"
-msgstr ""
+msgstr "PS fata igikorwa () cyananiwekugera %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:608
 #, python-format
@@ -300,12 +307,12 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 msgid "WARNING"
-msgstr ""
+msgstr "IBURIRA"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
 msgid "Trying to remove activity \"%s\" which is already absent"
-msgstr ""
+msgstr "Kugerageza gukuraho igikorwa\"%s\" gisanzwe kidahari"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:623
 #, python-format
@@ -320,13 +327,15 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:630
 #, python-format
+#, fuzzy
 msgid "PS GetBuddies() returned %r"
-msgstr ""
+msgstr "PS fata igikorwa () ukigarure %r "
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:636
 #, python-format
+#, fuzzy
 msgid "PS GetBuddies() failed with %s"
-msgstr ""
+msgstr "PS fata igikorwa () cyananiwekugera %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #, python-format
@@ -340,66 +349,80 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #, python-format
+#, python-format, fuzzy
 msgid "Trying to remove buddy \"%s\" which is already absent"
-msgstr ""
+msgstr "Kugerageza gukuraho igikorwa\"%s\" gisanzwe kidahari"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:676
 msgid "Looking for Presence Service..."
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:680
+#, fuzzy
 msgid "Log"
-msgstr ""
+msgstr "Log"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:703
 #, python-format
+#, python-format, fuzzy
 msgid "Presence Service running: unique name %s"
-msgstr ""
+msgstr "Serivice ziriho zikorwa: izinarimwe %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:712
+#, fuzzy
 msgid "Presence Service not running"
-msgstr ""
+msgstr "Servisi ya presence ntiri gukora"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:27
+#, fuzzy
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:28
+#, fuzzy
 msgid "Resource Base"
-msgstr ""
+msgstr "Ishingiro ryisoko"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:29
+#, fuzzy
 msgid "Pixmap Bytes"
-msgstr ""
+msgstr "Pixmap Bytes"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:30
+#, fuzzy
 msgid "Other"
-msgstr ""
+msgstr "Ibindi"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:31
+#, fuzzy
 msgid "Total"
-msgstr ""
+msgstr "Byose hamwe"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:32
+#, fuzzy
 msgid "Window Name"
-msgstr ""
+msgstr "Izina ry'idirishya"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:40
 msgid "Analyze Activity"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:57
+#, fuzzy
 msgid "Interfaces"
-msgstr ""
+msgstr "Interface"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:91
+#, fuzzy
 msgid "Network Status"
-msgstr ""
+msgstr "Urusobe rwimimere"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:97
+#, fuzzy
 msgid "X Server"
-msgstr ""
+msgstr "Seriveri X"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:103
+#, fuzzy
 msgid "Presence Service"
-msgstr ""
+msgstr "Serivisi ya presence"

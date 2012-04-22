@@ -7,10 +7,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-08-13 20:49+0200\n"
+"PO-Revision-Date: 2011-08-29 04:53+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: hus\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -177,7 +177,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:317
 #, python-format
 msgid "<Buddy %(path)s>.GetTelepathyHandles(): %(e)s"
-msgstr "<Buddy %(path)s>.GetTelepathyHandles(): %(e)s"
+msgstr "<An ja'ubláb %(path)s>.GetTelepathyHandles(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:327
 #, python-format
@@ -236,7 +236,7 @@ msgstr "Exlax pat'ál"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:494
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:550
 msgid "Color"
-msgstr "mukuxtaláb"
+msgstr "Mukuxtaláb"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:499
 msgid "Type"
