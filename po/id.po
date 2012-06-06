@@ -2,20 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-06-03 12:26+0200\n"
+"Last-Translator: andika <andika@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
 msgid "Analyze"
@@ -23,35 +23,35 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:26
 msgid "Interface"
-msgstr ""
+msgstr "Antarmuka"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:27
 msgid "IP Address"
-msgstr ""
+msgstr "Alamat IP"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:28
 msgid "NetMask"
-msgstr ""
+msgstr "NetMask"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:29
 msgid "MAC Address"
-msgstr ""
+msgstr "Alamat MAC"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:30
 msgid "Bytes Recv"
-msgstr ""
+msgstr "Byte Terima"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:31
 msgid "Bytes Sent"
-msgstr ""
+msgstr "Byte Kirim"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:32
 msgid "Packets Recv"
-msgstr ""
+msgstr "Paket Terima"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:33
 msgid "Packets Sent"
-msgstr ""
+msgstr "Paket Kirim"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
@@ -71,7 +71,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 msgid "INFO"
-msgstr ""
+msgstr "INFO"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #, python-format
@@ -195,8 +195,9 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:366
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:375
 #, python-format
+#, python-format, fuzzy
 msgid "INTERNAL ERROR: %s"
-msgstr ""
+msgstr "GALAT INTERNAL: %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:371
 #, python-format
@@ -209,8 +210,9 @@ msgid "<Buddy %(path)s>.GetProperties(): %(e)s"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:481
+#, fuzzy
 msgid "Activities:"
-msgstr ""
+msgstr "Aktivitas;"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:485
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:533
@@ -223,24 +225,28 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:494
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:550
+#, fuzzy
 msgid "Color"
-msgstr ""
+msgstr "Warna"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:499
+#, fuzzy
 msgid "Type"
-msgstr ""
+msgstr "Jenis"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:504
+#, fuzzy
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:509
 msgid "Connection"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:514
+#, fuzzy
 msgid "Channels"
-msgstr ""
+msgstr "Kanal"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:518
 msgid "Buddies"
@@ -263,16 +269,18 @@ msgid "Owner"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:555
+#, fuzzy
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:560
 msgid "CurAct"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:565
+#, fuzzy
 msgid "Activities"
-msgstr ""
+msgstr "Aktivitas"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:570
 msgid "Handles"
@@ -299,8 +307,9 @@ msgid "PS emitted ActivityDisappeared(\"%s\")"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
+#, fuzzy
 msgid "WARNING"
-msgstr ""
+msgstr "Peringatan"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
@@ -373,8 +382,9 @@ msgid "Pixmap Bytes"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:30
+#, fuzzy
 msgid "Other"
-msgstr ""
+msgstr "Lainnya"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:31
 msgid "Total"
@@ -389,8 +399,9 @@ msgid "Analyze Activity"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:57
+#, fuzzy
 msgid "Interfaces"
-msgstr ""
+msgstr "Antarmuka"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:91
 msgid "Network Status"
