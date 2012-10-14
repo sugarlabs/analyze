@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-08-29 04:53+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2012-07-10 22:22+0200\n"
+"Last-Translator: ing.arturo.lara <ing.arturo.lara@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
 msgid "Analyze"
@@ -73,7 +73,7 @@ msgstr "T'i'élchik axi abna'dhits"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 msgid "INFO"
-msgstr "Olchixtaláb"
+msgstr "OLCHIXTALÁB"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #, python-format
@@ -103,7 +103,7 @@ msgstr "An t'ojláb %(path)s in aba' a BuddyLeft(\"%(buddy)s\")"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:718
 msgid "ERROR"
-msgstr "K'ibts'ontaláb ti"
+msgstr "K'IBTS'ONTALÁB TI"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #, python-format
@@ -231,7 +231,7 @@ msgstr "In ch'uchbintal an eyextaláb"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:489
 msgid "ID"
-msgstr "Exlax pat'ál"
+msgstr "EXLAX PAT'ÁL"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:494
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:550
@@ -312,7 +312,7 @@ msgstr "PS in abna' ActivityDisappeared(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 msgid "WARNING"
-msgstr "Ok'chidh olchixtaláb"
+msgstr "OK'CHIDH OLCHIXTALÁB"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
@@ -376,7 +376,7 @@ msgstr "An alwataláb t'ojláb \"Presence Service\" yab k'wajat ti t'ajnal"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:27
 msgid "PID"
-msgstr "Exlom k'al an áytaláb"
+msgstr "EXLOM K'AL AN ÁYTALÁB"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:28
 msgid "Resource Base"

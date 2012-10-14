@@ -441,8 +441,8 @@ msgstr "सञ्जाल वस्तुस्थिति"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:97
 msgid "X Server"
-msgstr "X सर्भर"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:103
 msgid "Presence Service"
-msgstr "हालको सर्भिस"
+msgstr ""

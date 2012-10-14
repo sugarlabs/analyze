@@ -2,56 +2,56 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2012-06-29 22:36+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #: activity/activity.info:2
 msgid "Analyze"
-msgstr "Analyzovat"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:26
 msgid "Interface"
-msgstr "Rozhraní"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:27
 msgid "IP Address"
-msgstr "IP adresa"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:28
 msgid "NetMask"
-msgstr "Maska sítě"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:29
 msgid "MAC Address"
-msgstr "MAC adresa"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:30
 msgid "Bytes Recv"
-msgstr "Příjmuté bajty"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:31
 msgid "Bytes Sent"
-msgstr "Odeslané bajty"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:32
 msgid "Packets Recv"
-msgstr "Příjmuté pakety"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:33
 msgid "Packets Sent"
-msgstr "Odeslané pakety"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
@@ -71,7 +71,7 @@ msgstr "Odeslané pakety"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 msgid "INFO"
-msgstr "INFO"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #, python-format
@@ -99,7 +99,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:718
 msgid "ERROR"
-msgstr "CHYBA"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #, python-format
@@ -196,7 +196,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:375
 #, python-format
 msgid "INTERNAL ERROR: %s"
-msgstr "VNITŘNÍ CHYBA: %s"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:371
 #, python-format
@@ -210,37 +210,37 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:481
 msgid "Activities:"
-msgstr "Aktivity:"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:485
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:533
 msgid "Object path"
-msgstr "Cesta k objektu"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:489
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:494
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:550
 msgid "Color"
-msgstr "Barva"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:499
 msgid "Type"
-msgstr "Typ"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:504
 msgid "Name"
-msgstr "Jméno"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:509
 msgid "Connection"
-msgstr "Spojení"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:514
 msgid "Channels"
-msgstr "Kanály"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:518
 msgid "Buddies"
@@ -260,11 +260,11 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:548
 msgid "Owner"
-msgstr "Vlastník"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:555
 msgid "IPv4"
-msgstr "IPv4"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:560
 msgid "CurAct"
@@ -272,7 +272,7 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:565
 msgid "Activities"
-msgstr "Aktivity"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:570
 msgid "Handles"
@@ -300,7 +300,7 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 msgid "WARNING"
-msgstr "VAROVÁNÍ"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
@@ -345,11 +345,11 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:676
 msgid "Looking for Presence Service..."
-msgstr "Hledám přítomnost služby..."
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:680
 msgid "Log"
-msgstr "Záznam"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:703
 #, python-format
@@ -362,11 +362,11 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:27
 msgid "PID"
-msgstr "PID"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:28
 msgid "Resource Base"
-msgstr "Základní zdroj"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:29
 msgid "Pixmap Bytes"
@@ -374,7 +374,7 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:30
 msgid "Other"
-msgstr "Jiný"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:31
 msgid "Total"
@@ -389,9 +389,8 @@ msgid "Analyze Activity"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:57
-#, fuzzy
 msgid "Interfaces"
-msgstr "Rozhraní"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:91
 msgid "Network Status"
@@ -399,7 +398,7 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:97
 msgid "X Server"
-msgstr "X Server"
+msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:103
 msgid "Presence Service"

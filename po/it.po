@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2012-03-02 18:59+0200\n"
-"Last-Translator: Rafael <rafael.cordano@gmail.com>\n"
+"PO-Revision-Date: 2012-09-06 08:06+0200\n"
+"Last-Translator: arosella <arosella@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -271,9 +271,8 @@ msgid "CurAct"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:565
-#, fuzzy
 msgid "Activities"
-msgstr "Attività:"
+msgstr "Attività"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:570
 msgid "Handles"
@@ -301,12 +300,12 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 msgid "WARNING"
-msgstr ""
+msgstr "ATTENZIONE"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
 msgid "Trying to remove activity \"%s\" which is already absent"
-msgstr ""
+msgstr "Stai provando a rimovere l'attività \"%s\" che è già stata rimossa"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:623
 #, python-format
@@ -341,8 +340,9 @@ msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #, python-format
+#, python-format, fuzzy
 msgid "Trying to remove buddy \"%s\" which is already absent"
-msgstr ""
+msgstr "Stai provando a rimovere l'attività \"%s\" che è già stata rimossa"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:676
 msgid "Looking for Presence Service..."
@@ -390,9 +390,8 @@ msgid "Analyze Activity"
 msgstr ""
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:57
-#, fuzzy
 msgid "Interfaces"
-msgstr "Interfaccia"
+msgstr "Interfacce"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:91
 msgid "Network Status"
