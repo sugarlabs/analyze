@@ -7,15 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-11 00:11+0000\n"
-"PO-Revision-Date: 2011-07-04 21:16+0200\n"
-"Last-Translator: <daniel.hamngren@gmail.com>\n"
+"PO-Revision-Date: 2017-04-04 22:20+0000\n"
+"Last-Translator: Anders <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1491344403.000000\n"
 
 #: activity/activity.info:2
 msgid "Analyze"
@@ -31,27 +32,27 @@ msgstr "IP-adress"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:28
 msgid "NetMask"
-msgstr ""
+msgstr "Nätmask"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:29
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC-adress"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:30
 msgid "Bytes Recv"
-msgstr ""
+msgstr "Byte mott"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:31
 msgid "Bytes Sent"
-msgstr ""
+msgstr "Byte sända"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:32
 msgid "Packets Recv"
-msgstr ""
+msgstr "Paket mott"
 
 #: /home/garycmartin/Activities/Analyze.activity/network.py:33
 msgid "Packets Sent"
-msgstr ""
+msgstr "Paket sända"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
@@ -71,7 +72,7 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 msgid "INFO"
-msgstr ""
+msgstr "INFO"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:110
 #, python-format
@@ -79,11 +80,13 @@ msgid ""
 "Activity %(path)s emitted BuddyJoined(\"%(buddy)s\") or mentioned the buddy "
 "in GetJoinedBuddies"
 msgstr ""
+"Aktiviteten %(path)s sände ut BuddyJoined(\"%(buddy)s\") eller nämnde "
+"kompisen i GetJoinedBuddies"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:121
 #, python-format
 msgid "Activity %(path)s emitted BuddyLeft(\"%(buddy)s\")"
-msgstr ""
+msgstr "Aktiviteten %(path)s sände ut BuddyLeft(\"%(buddy)s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
@@ -99,12 +102,12 @@ msgstr ""
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:718
 msgid "ERROR"
-msgstr "Fel"
+msgstr "FEL"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:136
 #, python-format
 msgid "<Activity %(path)s>.GetJoinedBuddies(): %(e)s"
-msgstr ""
+msgstr "<Aktivitet %(path)s>.GetJoinedBuddies(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:146
 #, python-format
@@ -112,51 +115,54 @@ msgid ""
 "Activity %(path)s emitted NewChannel(\"%(channel)s\") or mentioned the "
 "channel in GetChannels()"
 msgstr ""
+"Aktiviteten %(path)s sände ut NewChannel(\"%(channel)s\") eller nämnde "
+"kanalen i GetChannels()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:168
 #, python-format
 msgid "<Activity %(path)s>.GetChannels(): %(e)s"
-msgstr ""
+msgstr "<Aktivitet %(path)s>.GetChannels(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:180
 #, python-format
 msgid "<Activity %(path)s>.GetId(): %(e)s"
-msgstr ""
+msgstr "<Aktivitet %(path)s>.GetId(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:191
 #, python-format
 msgid "<Activity %(path)s>.GetColor(): %(e)s"
-msgstr ""
+msgstr "<Aktivitet %(path)s>.GetColor(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:202
 #, python-format
 msgid "<Activity %(path)s>.GetType(): %(e)s"
-msgstr ""
+msgstr "<Aktivitet %(path)s>.GetType(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:213
 #, python-format
 msgid "<Activity %(path)s>.GetName(): %(e)s"
-msgstr ""
+msgstr "<Aktivitet %(path)s>.GetName(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:261
 #, python-format
 msgid "Calling <Buddy %s>.GetProperties()"
-msgstr ""
+msgstr "Anropar <Kompis %s>.GetProperties()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:268
 #, python-format
 msgid "Calling <Buddy %s>.GetJoinedActivities()"
-msgstr ""
+msgstr "Anropar <Kompis %s>.GetJoinedActivities()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:277
 #, python-format
 msgid "Calling <Buddy %s>.GetTelepathyHandles()"
-msgstr ""
+msgstr "Anropar <Kompis %s>.GetTelepathyHandles()"
 
+# TODO: end of sentence is not marked for translation
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:286
 #, python-format
 msgid "Buddy %s emitted Telepathy HandleAdded("
-msgstr ""
+msgstr "Kompisen %s sände ut Telepathy HandleAdded("
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:302
 #, python-format
@@ -164,11 +170,13 @@ msgid ""
 "Buddy %(path)s emitted HandleRemoved(\"%(service)s\", \"%(conn)s\", "
 "%(handle)u)"
 msgstr ""
+"Kompisen %(path)s sände ut HandleRemoved(\"%(service)s\", \"%(conn)s\", "
+"%(handle)u)"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:317
 #, python-format
 msgid "<Buddy %(path)s>.GetTelepathyHandles(): %(e)s"
-msgstr ""
+msgstr "<Kompis %(path)s>.GetTelepathyHandles(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:327
 #, python-format
@@ -176,21 +184,23 @@ msgid ""
 "Buddy %(path)s emitted ActivityJoined(\"%(act)s\") or mentioned it in "
 "GetJoinedActivities()"
 msgstr ""
+"Kompisen %(path)s sände ut ActivityJoined(\"%(act)s\") eller nämnde det i "
+"GetJoinedActivities()"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:339
 #, python-format
 msgid "Buddy %(path)s emitted ActivityLeft(\"%(act)s\")"
-msgstr ""
+msgstr "Kompisen %(path)s sände ut ActivityLeft(\"%(act)s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:354
 #, python-format
 msgid "<Buddy %(path)s>.GetJoinedActivities(): %(e)s"
-msgstr ""
+msgstr "<Kompis %(path)s>.GetJoinedActivities(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:362
 #, python-format
 msgid "<Buddy %(path)s> emitted PropertyChanged(%(props)r)"
-msgstr ""
+msgstr "<Kompis %(path)s> sände ut PropertyChanged(%(props)r)"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:366
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:375
@@ -201,12 +211,12 @@ msgstr "INTERNT FEL: %s"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:371
 #, python-format
 msgid "<Buddy %(path)s>.GetProperties() -> %(props)r"
-msgstr ""
+msgstr "<Kompis %(path)s>.GetProperties() -> %(props)r"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:412
 #, python-format
 msgid "<Buddy %(path)s>.GetProperties(): %(e)s"
-msgstr ""
+msgstr "<Kompis %(path)s>.GetProperties(): %(e)s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:481
 msgid "Activities:"
@@ -215,11 +225,11 @@ msgstr "Aktiviteter:"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:485
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:533
 msgid "Object path"
-msgstr ""
+msgstr "Objektsökväg"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:489
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:494
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:550
@@ -236,7 +246,7 @@ msgstr "Namn"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:509
 msgid "Connection"
-msgstr ""
+msgstr "Anslutning"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:514
 msgid "Channels"
@@ -244,23 +254,23 @@ msgstr "Kanaler"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:518
 msgid "Buddies"
-msgstr ""
+msgstr "Kompisar"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:531
 msgid "Buddies:"
-msgstr ""
+msgstr "Kompisar:"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:538
 msgid "Pubkey"
-msgstr ""
+msgstr "Öppen nyckel"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:543
 msgid "Nick"
-msgstr ""
+msgstr "Alias"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:548
 msgid "Owner"
-msgstr ""
+msgstr "Ägare"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:555
 msgid "IPv4"
@@ -268,7 +278,7 @@ msgstr "IPv4"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:560
 msgid "CurAct"
-msgstr ""
+msgstr "NuvAkt"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:565
 msgid "Activities"
@@ -276,27 +286,27 @@ msgstr "Aktiviteter"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:570
 msgid "Handles"
-msgstr ""
+msgstr "Handtag"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:586
 #, python-format
 msgid "PS GetActivities() returned %r"
-msgstr ""
+msgstr "PS GetActivities() returnerade %r"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:592
 #, python-format
 msgid "PS GetActivities() failed with %s"
-msgstr ""
+msgstr "PS GetActivities() misslyckades med %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:608
 #, python-format
 msgid "PS emitted ActivityAppeared(\"%s\")"
-msgstr ""
+msgstr "PS sände ut ActivityAppeared(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:614
 #, python-format
 msgid "PS emitted ActivityDisappeared(\"%s\")"
-msgstr ""
+msgstr "PS sände ut ActivityDisappeared(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 msgid "WARNING"
@@ -305,47 +315,48 @@ msgstr "VARNING"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:617
 #, python-format
 msgid "Trying to remove activity \"%s\" which is already absent"
-msgstr ""
+msgstr "Försöker ta bort aktivitet \"%s\" som redan är frånvarande"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:623
 #, python-format
 msgid "PS emitted ActivityInvitation(\"%s\")"
-msgstr ""
+msgstr "PS sände ut ActivityInvitation(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:626
 #, python-format
 msgid ""
 "PS emitted PrivateInvitation(\"%(bus)s\", \"%(conn)s\", \"%(channel)s\")"
 msgstr ""
+"PS sände ut PrivateInvitation(\"%(bus)s\", \"%(conn)s\", \"%(channel)s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:630
 #, python-format
 msgid "PS GetBuddies() returned %r"
-msgstr ""
+msgstr "PS GetBuddies() returnerade %r"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:636
 #, python-format
 msgid "PS GetBuddies() failed with %s"
-msgstr ""
+msgstr "PS GetBuddies() misslyckades med %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:653
 #, python-format
 msgid "PS emitted BuddyAppeared(\"%s\")"
-msgstr ""
+msgstr "PS sände ut BuddyAppeared(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:659
 #, python-format
 msgid "PS emitted BuddyDisappeared(\"%s\")"
-msgstr ""
+msgstr "PS sände ut BuddyDisappeared(\"%s\")"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:662
 #, python-format
 msgid "Trying to remove buddy \"%s\" which is already absent"
-msgstr ""
+msgstr "Försöker ta bort kompis \"%s\" som redan är frånvarande"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:676
 msgid "Looking for Presence Service..."
-msgstr ""
+msgstr "Söker efter närvarotjänst..."
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:680
 msgid "Log"
@@ -354,23 +365,23 @@ msgstr "Loggfil"
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:703
 #, python-format
 msgid "Presence Service running: unique name %s"
-msgstr ""
+msgstr "Närvarotjänst körs: unikt namn %s"
 
 #: /home/garycmartin/Activities/Analyze.activity/ps_watcher.py:712
 msgid "Presence Service not running"
-msgstr ""
+msgstr "Närvarotjänst körs inte"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:27
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:28
 msgid "Resource Base"
-msgstr ""
+msgstr "Resursbas"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:29
 msgid "Pixmap Bytes"
-msgstr ""
+msgstr "Pixmap-byte"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:30
 msgid "Other"
@@ -382,25 +393,24 @@ msgstr "Totalt"
 
 #: /home/garycmartin/Activities/Analyze.activity/xserver.py:32
 msgid "Window Name"
-msgstr ""
+msgstr "Fönsternamn"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:40
 msgid "Analyze Activity"
-msgstr ""
+msgstr "Analysera-aktivitet"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:57
-#, fuzzy
 msgid "Interfaces"
 msgstr "Gränssnitt"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:91
 msgid "Network Status"
-msgstr ""
+msgstr "Nätverksstatus"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:97
 msgid "X Server"
-msgstr ""
+msgstr "X-server"
 
 #: /home/garycmartin/Activities/Analyze.activity/analyze.py:103
 msgid "Presence Service"
-msgstr ""
+msgstr "Närvarotjänst"
