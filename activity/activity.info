@@ -6,3 +6,4 @@ exec = sugar-activity analyze.AnalyzeHandler -s
 icon = activity-analyze
 license = GPLv2+ and LGPLv2+
 update_url = http://wiki.laptop.org/go/Activities/G1G1
+repository = https://github.com/sugarlabs/analyze.git
