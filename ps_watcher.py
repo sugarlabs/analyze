@@ -18,8 +18,8 @@ import logging
 from hashlib import sha1
 
 import dbus
-from gtk import VBox, Label, TreeView, Expander, ListStore, CellRendererText,\
-                ScrolledWindow, CellRendererToggle, TextView, VPaned
+from gtk import VBox, Label, TreeView, ListStore, CellRendererText,\
+                ScrolledWindow, CellRendererToggle, VPaned
 from gobject import timeout_add
 from gettext import gettext as _
 
@@ -121,7 +121,7 @@ class ActivityWatcher(object):
         if buddy.startswith('/org/laptop/Sugar/Presence/Buddies/'):
             buddy = '.../' + buddy[35:]
         self.ps_watcher.log(
-            _('INFO') + ': ' 
+            _('INFO') + ': '
             + _('Activity %(path)s emitted BuddyLeft("%(buddy)s")') %
             {'path': self.object_path, 'buddy': buddy})
         try:
@@ -304,9 +304,9 @@ class BuddyWatcher(object):
             return
         self.ps_watcher.log(
             _('INFO') + ': '
-            + _('Buddy %(object_path)s emitted Telepathy HandleAdded(' + \
-            '"%(service)s", "%(conn)s", %(handle)u) or mentioned the handle in ' + \
-            'GetTelepathyHandles()') % 
+            + _('Buddy %(object_path)s emitted Telepathy HandleAdded( 
+            + \ '"%(service)s", "%(conn)s", %(handle)u) or mentioned the handle in '
+            + \ 'GetTelepathyHandles()') %
             {'object_path': self.object_path, 'service': service, 'conn': conn, 'handle': handle})
         if conn.startswith('/org/freedesktop/Telepathy/Connection/'):
             conn = '.../' + conn[38:]
@@ -339,8 +339,8 @@ class BuddyWatcher(object):
     def _on_get_handles_failure(self, e):
         self.ps_watcher.log(
             _('ERROR') + ': '
-            +_('<Buddy %(path)s>.GetTelepathyHandles(): %(e)s') %
-            {'path':self.object_path, 'e':e})
+            +_('< Buddy %(path)s >.GetTelepathyHandles(): %(e)s') %
+            {'path': self.object_path, 'e': e})
         self.ps_watcher.buddies_list_store.set(self.iter, BUDDY_COL_HANDLES,
                                                '!')
 
@@ -393,7 +393,7 @@ class BuddyWatcher(object):
             self.ps_watcher.log(
                 _('INFO') + ': '
                 + _('<Buddy %(path)s> emitted PropertyChanged(%(props)r)') %
-               {'path': self.object_path, 'props': props})
+                {'path': self.object_path, 'props': props})
             self._props_changed(props)
         except Exception, e:
             self.ps_watcher.log(_('INTERNAL ERROR: %s'), e)
@@ -518,28 +518,28 @@ class PresenceServiceWatcher(VBox):
         self.pack_start(Label(_('Activities:')), False, False)
 
         self.activities_list = TreeView(self.activities_list_store)
-        c = self.activities_list.insert_column_with_attributes(0,
-            _('Object path'), CellRendererText(), text=ACT_COL_PATH,
+        c = self.activities_list.insert_column_with_attributes(
+            0, _('Object path'), CellRendererText(), text=ACT_COL_PATH,
             weight=ACT_COL_WEIGHT, strikethrough=ACT_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(ACT_COL_PATH)
-        c = self.activities_list.insert_column_with_attributes(1, _('ID'),
-            CellRendererText(), text=ACT_COL_ID,
+        c = self.activities_list.insert_column_with_attributes(
+            1, _('ID'), CellRendererText(), text=ACT_COL_ID,
             weight=ACT_COL_WEIGHT, strikethrough=ACT_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(ACT_COL_ID)
-        c = self.activities_list.insert_column_with_attributes(2, _('Color'),
-            CellRendererText(), text=ACT_COL_COLOR,
+        c = self.activities_list.insert_column_with_attributes(
+            2, _('Color'), CellRendererText(), text=ACT_COL_COLOR,
             weight=ACT_COL_WEIGHT, strikethrough=ACT_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(ACT_COL_COLOR)
-        c = self.activities_list.insert_column_with_attributes(3, _('Type'),
-            CellRendererText(), text=ACT_COL_TYPE, weight=ACT_COL_WEIGHT,
+        c = self.activities_list.insert_column_with_attributes(
+            3, _('Type'), CellRendererText(), text=ACT_COL_TYPE, weight=ACT_COL_WEIGHT,
             strikethrough=ACT_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(ACT_COL_TYPE)
-        c = self.activities_list.insert_column_with_attributes(4, _('Name'),
-            CellRendererText(), text=ACT_COL_NAME, weight=ACT_COL_WEIGHT,
+        c = self.activities_list.insert_column_with_attributes(
+            4, _('Name'), CellRendererText(), text=ACT_COL_NAME, weight=ACT_COL_WEIGHT,
             strikethrough=ACT_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(ACT_COL_NAME)
@@ -554,7 +554,8 @@ class PresenceServiceWatcher(VBox):
             CellRendererText(), text=ACT_COL_CHANNELS, weight=ACT_COL_WEIGHT,
             strikethrough=ACT_COL_STRIKE)
         c.set_resizable(True)
-        c = self.activities_list.insert_column_with_attributes(7, _('Buddies'),
+        c = self.activities_list.insert_column_with_attributes(
+            7, _('Buddies'),
             CellRendererText(), text=ACT_COL_BUDDIES, weight=ACT_COL_WEIGHT,
             strikethrough=ACT_COL_STRIKE)
         c.set_resizable(True)
@@ -575,39 +576,47 @@ class PresenceServiceWatcher(VBox):
             weight=BUDDY_COL_WEIGHT, strikethrough=BUDDY_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(BUDDY_COL_PATH)
-        c = self.buddies_list.insert_column_with_attributes(1, _('Pubkey'),
+        c = self.buddies_list.insert_column_with_attributes(
+            1, _('Pubkey'),
             CellRendererText(), text=BUDDY_COL_KEY_ID,
             weight=BUDDY_COL_WEIGHT, strikethrough=BUDDY_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(BUDDY_COL_KEY_ID)
-        c = self.buddies_list.insert_column_with_attributes(2, _('Nick'),
+        c = self.buddies_list.insert_column_with_attributes(
+            2, _('Nick'),
             CellRendererText(), text=BUDDY_COL_NICK,
             weight=BUDDY_COL_WEIGHT, strikethrough=BUDDY_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(BUDDY_COL_NICK)
-        c = self.buddies_list.insert_column_with_attributes(3, _('Owner'),
+        c = self.buddies_list.insert_column_with_attributes(
+            3, _('Owner'),
             CellRendererToggle(), active=BUDDY_COL_OWNER)
-        c = self.buddies_list.insert_column_with_attributes(4, _('Color'),
+        c = self.buddies_list.insert_column_with_attributes(
+            4, _('Color'),
             CellRendererText(), text=BUDDY_COL_COLOR,
             weight=BUDDY_COL_WEIGHT, strikethrough=BUDDY_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(BUDDY_COL_OWNER)
-        c = self.buddies_list.insert_column_with_attributes(5, _('IPv4'),
+        c = self.buddies_list.insert_column_with_attributes(
+            5, _('IPv4'),
             CellRendererText(), text=BUDDY_COL_IP4,
             weight=BUDDY_COL_WEIGHT, strikethrough=BUDDY_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(BUDDY_COL_IP4)
-        c = self.buddies_list.insert_column_with_attributes(6, _('CurAct'),
+        c = self.buddies_list.insert_column_with_attributes(
+            6, _('CurAct'),
             CellRendererText(), text=BUDDY_COL_CUR_ACT,
             weight=BUDDY_COL_WEIGHT, strikethrough=BUDDY_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(BUDDY_COL_CUR_ACT)
-        c = self.buddies_list.insert_column_with_attributes(7, _('Activities'),
+        c = self.buddies_list.insert_column_with_attributes(
+            7, _('Activities'),
             CellRendererText(), text=BUDDY_COL_ACTIVITIES,
             weight=BUDDY_COL_WEIGHT, strikethrough=BUDDY_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(BUDDY_COL_ACTIVITIES)
-        c = self.buddies_list.insert_column_with_attributes(8, _('Handles'),
+        c = self.buddies_list.insert_column_with_attributes(
+            8, _('Handles'),
             CellRendererText(), text=BUDDY_COL_HANDLES,
             weight=BUDDY_COL_WEIGHT, strikethrough=BUDDY_COL_STRIKE)
         c.set_resizable(True)
@@ -671,7 +680,7 @@ class PresenceServiceWatcher(VBox):
         self.log(
             _('INFO') + ': '
             + _('PS emitted PrivateInvitation("%(bus)s", "%(conn)s", "%(channel)s")') %
-            {'bus':bus_name, 'conn':conn, 'channel':channel})
+            {'bus': bus_name, 'conn': conn, 'channel': channel})
 
     def _on_get_buddies_success(self, paths):
         self.log(_('INFO') + ': ' + _('PS GetBuddies() returned %r'), paths)
@@ -686,7 +695,8 @@ class PresenceServiceWatcher(VBox):
         path = b.object_path
         if path.startswith('/org/laptop/Sugar/Presence/Buddies/'):
             path = '.../' + path[35:]
-        return self.buddies_list_store.append((path, 700, False,
+        return self.buddies_list_store.append(
+            (path, 700, False,
             b.nick, b.owner, b.color, b.ipv4, b.cur_act, b.keyid,
             '?', '?'))
 
@@ -707,8 +717,8 @@ class PresenceServiceWatcher(VBox):
             _('INFO') + ': ' + _('PS emitted BuddyDisappeared("%s")'), path)
         b = self.buddies.get(path)
         if b is None:
-             self.log(_('ERROR') + ': '
-             + _('Trying to remove buddy "%s" which is already absent'), path)
+            self.log(_('ERROR') + ': '
+            + _('Trying to remove buddy "%s" which is already absent'), path)
         else:
             # we don't remove the activity straight away, just cross it out
             b.disappear()
