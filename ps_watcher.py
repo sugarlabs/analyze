@@ -121,7 +121,8 @@ class ActivityWatcher(object):
         if buddy.startswith('/org/laptop/Sugar/Presence/Buddies/'):
             buddy = '.../' + buddy[35:]
         self.ps_watcher.log(
-            _('INFO') + ': ' + _('Activity %(path)s emitted BuddyLeft("%(buddy)s")') %
+            _('INFO') + ': ' 
+            + _('Activity %(path)s emitted BuddyLeft("%(buddy)s")') %
             {'path': self.object_path, 'buddy': buddy})
         try:
             self.buddies.remove(buddy)
@@ -305,11 +306,8 @@ class BuddyWatcher(object):
             _('INFO') + ': '
             + _('Buddy %(object_path)s emitted Telepathy HandleAdded(' + \
             '"%(service)s", "%(conn)s", %(handle)u) or mentioned the handle in ' + \
-            'GetTelepathyHandles()').format
-            % {'object_path': self.object_path,
-               'service': service,
-               'conn': conn,
-               'handle': handle }
+            'GetTelepathyHandles()') % 
+            {'object_path': self.object_path, 'service': service, 'conn': conn, 'handle': handle})
         if conn.startswith('/org/freedesktop/Telepathy/Connection/'):
             conn = '.../' + conn[38:]
         self.handles.append('%u@%s' % (handle, conn))
@@ -441,8 +439,8 @@ class BuddyWatcher(object):
             else:
                 # could be '' (present, empty value) or None (absent). Either way:
                 self.keyid = '?'
-            self.ps_watcher.buddies_list_store.set(self.iter, BUDDY_COL_KEY_ID,
-                                                   self.keyid)
+            self.ps_watcher.buddies_list_store.set(
+                self.iter, BUDDY_COL_KEY_ID, self.keyid)
         logger.debug('End _props_changed')
 
     def _on_get_props_failure(self, e):
@@ -666,7 +664,8 @@ class PresenceServiceWatcher(VBox):
             act.disappear()
 
     def _on_activity_invitation(self, path):
-        self.log(_('INFO') + ': ' + _('PS emitted ActivityInvitation("%s")'), path)
+        self.log(
+            _('INFO') + ': ' + _('PS emitted ActivityInvitation("%s")'), path)
 
     def _on_private_invitation(self, bus_name, conn, channel):
         self.log(
@@ -704,11 +703,12 @@ class PresenceServiceWatcher(VBox):
     def _on_buddy_disappeared(self, path):
         if self.buddies is None:
             return
-        self.log(_('INFO') + ': ' + _('PS emitted BuddyDisappeared("%s")'), path)
+        self.log(
+            _('INFO') + ': ' + _('PS emitted BuddyDisappeared("%s")'), path)
         b = self.buddies.get(path)
         if b is None:
-            self.log(_('ERROR') + ': '
-		     + _('Trying to remove buddy "%s" which is already absent'), path)
+             self.log(_('ERROR') + ': '
+             + _('Trying to remove buddy "%s" which is already absent'), path)
         else:
             # we don't remove the activity straight away, just cross it out
             b.disappear()
