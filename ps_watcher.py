@@ -283,10 +283,10 @@ class BuddyWatcher(object):
     def _on_handle_added(self, service, conn, handle):
         if self.handles is None:
             return
-        self.ps_watcher.log(_('INFO') + ': ' + _('Buddy %s emitted Telepathy HandleAdded(' + \
-                            '"%s", "%s", %u) or mentioned the handle in ' + \
-                            'GetTelepathyHandles()'),
-                            self.object_path, service, conn, handle)
+        self.ps_watcher.log(_('INFO') + ': ' + _('Buddy {self.object_path} emitted Telepathy HandleAdded(' + \
+                            '"{service}", "{conn}", {handle}) or mentioned the handle in ' + \
+                            'GetTelepathyHandles()').format
+                            (self.object_path=self.object_path, service=service, conn=conn, handle=handle)
         if conn.startswith('/org/freedesktop/Telepathy/Connection/'):
             conn = '.../' + conn[38:]
         self.handles.append('%u@%s' % (handle, conn))
