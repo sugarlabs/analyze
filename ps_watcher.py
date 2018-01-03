@@ -308,7 +308,7 @@ class BuddyWatcher(object):
             _('INFO') + ': '
             + _('Buddy %(object_path)s emitted Telepathy HandleAdded('
                 '"%(service)s", "%(conn)s", %(handle)u)\
-                or mentioned the handle in '\
+                or mentioned the handle in '
                 'GetTelepathyHandles()') %
             {'object_path': self.object_path, 'service': service,
              'conn': conn, 'handle': handle})
@@ -444,7 +444,7 @@ class BuddyWatcher(object):
                 self.keyid = '%d bytes, sha1 %s' % (len(key),
                                                     sha1(key).hexdigest())
             else:
-                # could be '' (present, empty value) or None (absent). 
+                # could be '' (present, empty value) or None (absent).
                 # Either way:
                 self.keyid = '?'
             self.ps_watcher.buddies_list_store.set(
