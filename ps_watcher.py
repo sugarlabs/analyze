@@ -109,7 +109,8 @@ class ActivityWatcher(object):
             buddy = '.../' + buddy[35:]
         self.ps_watcher.log(
             _('INFO') + ': '
-            + _('Activity %(path)s emitted BuddyJoined("%(buddy)s") or mentioned the buddy in GetJoinedBuddies') %
+            + _('Activity %(path)s emitted BuddyJoined("%(buddy)s")\
+                or mentioned the buddy in GetJoinedBuddies') %
             {'path': self.object_path, 'buddy': buddy})
         self.buddies.append(buddy)
         self.ps_watcher.activities_list_store.set(self.iter, ACT_COL_BUDDIES,
@@ -151,7 +152,8 @@ class ActivityWatcher(object):
             channel = '...' + channel[len(self.full_conn):]
         self.ps_watcher.log(
             _('INFO') + ': '
-            + _('Activity %(path)s emitted NewChannel("%(channel)s") or mentioned the channel in GetChannels()') %
+            + _('Activity %(path)s emitted NewChannel("%(channel)s")\
+                or mentioned the channel in GetChannels()') %
             {'path': self.object_path, 'channel': channel})
         self.channels.append(channel)
         # FIXME: listen for Telepathy Closed signal!
@@ -303,10 +305,13 @@ class BuddyWatcher(object):
         if self.handles is None:
             return
         self.ps_watcher.log(
-            _('INFO') + ': ' + _('Buddy %(object_path)s emitted Telepathy HandleAdded(' + \
-            '"%(service)s", "%(conn)s", %(handle)u) or mentioned the handle in ' + \
-            'GetTelepathyHandles()') %
-            {'object_path': self.object_path, 'service': service, 'conn': conn, 'handle': handle})
+            _('INFO') + ': '
+            + _('Buddy %(object_path)s emitted Telepathy HandleAdded('
+                '"%(service)s", "%(conn)s", %(handle)u)\
+                or mentioned the handle in '\
+                'GetTelepathyHandles()') %
+            {'object_path': self.object_path, 'service': service,
+             'conn': conn, 'handle': handle})
         if conn.startswith('/org/freedesktop/Telepathy/Connection/'):
             conn = '.../' + conn[38:]
         self.handles.append('%u@%s' % (handle, conn))
@@ -321,8 +326,10 @@ class BuddyWatcher(object):
             conn = '.../' + conn[38:]
         self.ps_watcher.log(
             _('INFO') + ': '
-            + _('Buddy %(path)s emitted HandleRemoved("%(service)s", "%(conn)s", %(handle)u)') %
-            {'path': self.object_path, 'service': service, 'conn': conn, 'handle': handle})
+            + _('Buddy %(path)s emitted \
+                HandleRemoved("%(service)s", "%(conn)s", %(handle)u)') %
+            {'path': self.object_path, 'service': service,
+             'conn': conn, 'handle': handle})
         try:
             self.handles.remove('%u@%s' % (handle, conn))
         except ValueError:
@@ -338,7 +345,7 @@ class BuddyWatcher(object):
     def _on_get_handles_failure(self, e):
         self.ps_watcher.log(
             _('ERROR') + ': '
-            +_('<Buddy %(path)s>.GetTelepathyHandles(): %(e)s') %
+            + _('<Buddy %(path)s>.GetTelepathyHandles(): %(e)s') %
             {'path': self.object_path, 'e': e})
         self.ps_watcher.buddies_list_store.set(self.iter, BUDDY_COL_HANDLES,
                                                '!')
@@ -350,7 +357,8 @@ class BuddyWatcher(object):
             act = '.../' + act[38:]
         self.ps_watcher.log(
             _('INFO') + ': '
-            + _('Buddy %(path)s emitted ActivityJoined("%(act)s") or mentioned it in GetJoinedActivities()') %
+            + _('Buddy %(path)s emitted ActivityJoined("%(act)s")\
+                or mentioned it in GetJoinedActivities()') %
             {'path': self.object_path, 'act': act})
         self.activities.append(act)
         self.ps_watcher.buddies_list_store.set(self.iter,
@@ -436,7 +444,8 @@ class BuddyWatcher(object):
                 self.keyid = '%d bytes, sha1 %s' % (len(key),
                                                     sha1(key).hexdigest())
             else:
-                # could be '' (present, empty value) or None (absent). Either way:
+                # could be '' (present, empty value) or None (absent). 
+                # Either way:
                 self.keyid = '?'
             self.ps_watcher.buddies_list_store.set(
                 self.iter, BUDDY_COL_KEY_ID, self.keyid)
@@ -533,12 +542,14 @@ class PresenceServiceWatcher(VBox):
         c.set_resizable(True)
         c.set_sort_column_id(ACT_COL_COLOR)
         c = self.activities_list.insert_column_with_attributes(
-            3, _('Type'), CellRendererText(), text=ACT_COL_TYPE, weight=ACT_COL_WEIGHT,
+            3, _('Type'),
+            CellRendererText(), text=ACT_COL_TYPE, weight=ACT_COL_WEIGHT,
             strikethrough=ACT_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(ACT_COL_TYPE)
         c = self.activities_list.insert_column_with_attributes(
-            4, _('Name'), CellRendererText(), text=ACT_COL_NAME, weight=ACT_COL_WEIGHT,
+            4, _('Name'),
+            CellRendererText(), text=ACT_COL_NAME, weight=ACT_COL_WEIGHT,
             strikethrough=ACT_COL_STRIKE)
         c.set_resizable(True)
         c.set_sort_column_id(ACT_COL_NAME)
@@ -667,7 +678,8 @@ class PresenceServiceWatcher(VBox):
         if act is None:
             self.log(
                 _('WARNING') + ': '
-                + _('Trying to remove activity "%s" which is already absent'), path)
+                + _('Trying to remove activity "%s"\
+                    which is already absent'), path)
         else:
             # we don't remove the activity straight away, just cross it out
             act.disappear()
@@ -679,7 +691,8 @@ class PresenceServiceWatcher(VBox):
     def _on_private_invitation(self, bus_name, conn, channel):
         self.log(
             _('INFO') + ': '
-            + _('PS emitted PrivateInvitation("%(bus)s", "%(conn)s", "%(channel)s")') %
+            + _('PS emitted\
+                PrivateInvitation("%(bus)s", "%(conn)s", "%(channel)s")') %
             {'bus': bus_name, 'conn': conn, 'channel': channel})
 
     def _on_get_buddies_success(self, paths):
@@ -719,7 +732,8 @@ class PresenceServiceWatcher(VBox):
         if b is None:
             self.log(
                 _('ERROR') + ': '
-                + _('Trying to remove buddy "%s" which is already absent'), path)
+                + _('Trying to remove buddy "%s"\
+                    which is already absent'), path)
         else:
             # we don't remove the activity straight away, just cross it out
             b.disappear()
