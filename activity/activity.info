@@ -1,7 +1,7 @@
 [Activity]
 name = Analyze
 activity_version = 8
-service_name = org.laptop.Analyze
+bundle_id = org.laptop.Analyze
 exec = sugar-activity analyze.AnalyzeHandler -s
 icon = activity-analyze
 license = GPLv2+ and LGPLv2+
