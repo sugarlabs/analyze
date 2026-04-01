@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-06 08:18+1100\n"
-"PO-Revision-Date: 2026-02-21 12:15+0000\n"
+"PO-Revision-Date: 2026-04-01 08:11+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/analyze/ka/>\n"
@@ -349,7 +349,7 @@ msgstr ""
 
 #: ps_watcher.py:680
 msgid "Log"
-msgstr ""
+msgstr "ჟურნალი"
 
 #: ps_watcher.py:703
 #, python-format
@@ -374,7 +374,7 @@ msgstr ""
 
 #: xserver.py:30
 msgid "Other"
-msgstr ""
+msgstr "სხვა"
 
 #: xserver.py:31
 msgid "Total"
