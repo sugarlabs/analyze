@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-06 08:18+1100\n"
-"PO-Revision-Date: 2026-04-01 08:11+0000\n"
+"PO-Revision-Date: 2026-05-04 07:03+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/analyze/ka/>\n"
@@ -244,7 +244,7 @@ msgstr ""
 
 #: ps_watcher.py:518
 msgid "Buddies"
-msgstr ""
+msgstr "მეგობრები"
 
 #: ps_watcher.py:531
 msgid "Buddies:"
@@ -272,7 +272,7 @@ msgstr ""
 
 #: ps_watcher.py:565
 msgid "Activities"
-msgstr ""
+msgstr "აქტივობები"
 
 #: ps_watcher.py:570
 msgid "Handles"
